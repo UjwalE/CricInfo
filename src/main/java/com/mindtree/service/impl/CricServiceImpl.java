@@ -21,9 +21,8 @@ public class CricServiceImpl implements ICricService {
 		UriComponentsBuilder builder = UriComponentsBuilder.fromHttpUrl("http://cricapi.com/api/matches")
 		        .queryParam("apikey", "v6iuXmcZitN669cIyDgs3bGYdh23");
 
-		List<Match> list = rest.getForObject(builder.toUriString(),ArrayList.class);
+		return rest.getForObject(builder.toUriString(),ArrayList.class);
 		
-		return list;
 	}
 	
 	

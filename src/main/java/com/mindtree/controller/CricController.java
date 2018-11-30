@@ -20,8 +20,6 @@ public class CricController {
 	@RequestMapping("/search")
 	public ModelAndView showMessage(
 			@RequestParam(value = "name", required = false, defaultValue = "Sachin") String name) {
-		System.out.println("in controller: "+ name);
-		
 		List<Player> list = service.searchPlayer(name);
  
 		ModelAndView mv = new ModelAndView("matches");

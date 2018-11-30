@@ -8,7 +8,6 @@ public class PlayerList {
 
 	public PlayerList() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public PlayerList(List<Player> data) {

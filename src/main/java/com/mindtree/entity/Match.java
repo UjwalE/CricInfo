@@ -4,9 +4,9 @@ import java.util.Date;
 
 public class Match {
 	
-	int unique_id;
-	String team_1;
-	String team_2;
+	int uniqueId;
+	String team1;
+	String team2;
 	Date date;
 	boolean matchStarted;
 	
@@ -15,31 +15,31 @@ public class Match {
 		super();
 	}
 	
-	public Match(int unique_id, String team_1, String team_2, Date date, boolean matchStarted) {
+	public Match(int uniqueId, String team1, String team2, Date date, boolean matchStarted) {
 		super();
-		this.unique_id = unique_id;
-		this.team_1 = team_1;
-		this.team_2 = team_2;
+		this.uniqueId = uniqueId;
+		this.team1 = team1;
+		this.team2 = team2;
 		this.date = date;
 		this.matchStarted = matchStarted;
 	}
-	public int getUnique_id() {
-		return unique_id;
+	public int getuniqueId() {
+		return uniqueId;
 	}
-	public void setUnique_id(int unique_id) {
-		this.unique_id = unique_id;
+	public void setuniqueId(int uniqueId) {
+		this.uniqueId = uniqueId;
 	}
-	public String getteam_1() {
-		return team_1;
+	public String getteam1() {
+		return team1;
 	}
-	public void setteam_1(String team_1) {
-		this.team_1 = team_1;
+	public void setteam1(String team1) {
+		this.team1 = team1;
 	}
-	public String getteam_2() {
-		return team_2;
+	public String getteam2() {
+		return team2;
 	}
-	public void setteam_2(String team_2) {
-		this.team_2 = team_2;
+	public void setteam2(String team2) {
+		this.team2 = team2;
 	}
 	public Date getDate() {
 		return date;
